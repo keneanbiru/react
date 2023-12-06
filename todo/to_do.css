@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #taskList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .removeButton {
+    background-color: #ff4136;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
